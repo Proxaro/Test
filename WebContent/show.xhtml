@@ -5,9 +5,12 @@
 	xmlns:ui="http://java.sun.com/jsf/facelets"
 	xmlns:h="http://java.sun.com/jsf/html"
 	xmlns:f="http://java.sun.com/jsf/core">
-
+	
+	<head>
+		<link rel="stylesheet" href="style.css" />
+	</head>
 	<body>
-		<h:dataTable var="address" value="#{customer.addresses}">
+		<h:dataTable id="table" var="address" value="#{customer.addresses}">
 			<h:column>
 				<f:facet name="header">Zip Code</f:facet>
 				#{address.zipCode}
