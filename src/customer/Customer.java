@@ -13,8 +13,8 @@ import java.util.List;
 @SessionScoped
 public class Customer {
 	private List<Address> addresses = new ArrayList<Address>(Arrays.asList(
-			new Address(8052, "Zürich", "Federnstrasse"),
-			new Address(3997, "Bellwald", "Imwinkelried")
+			new Address(8052, "Zürich", "Federnstrasse", "Fredi", "Krueger"),
+			new Address(3997, "Bellwald", "Imwinkelried", "Milla", "Fair")
 		));
 	
 	public List<Address> getAddresses(){
