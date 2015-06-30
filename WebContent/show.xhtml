@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	<body>
+		<h:dataTable var="address" value="#{customer.addresses}">
+			<h:column>
+				<f:facet name="header">Zip Code</f:facet>
+				#{address.zipCode}
+			</h:column>
+			<h:column>
+				<f:facet name="header">City</f:facet>
+				#{address.city}
+			</h:column>
+			<h:column>
+				<f:facet name="header">Street</f:facet>
+				#{address.street}
+			</h:column>
+		</h:dataTable>
+	</body>
+</html>
