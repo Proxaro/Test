@@ -23,6 +23,18 @@
 				<f:facet name="header">Street</f:facet>
 				#{address.street}
 			</h:column>
+			
+			
+		</h:dataTable>
+		<h:dataTable id="table" var="kunde" value="#{customer.kunden}">
+			<h:column>
+				<f:facet name="header">Vorame</f:facet>
+				#{kunde.firstName}
+				</h:column>
+				<h:column>
+				<f:facet name="header">Nachname</f:facet>
+				#{kunde.lastName}
+			</h:column>
 		</h:dataTable>
 	</body>
 </html>

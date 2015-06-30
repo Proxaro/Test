@@ -32,16 +32,16 @@ public class Customer {
 	}
 	
 	
-	private List<Kunden> kunden = new ArrayList<Kunden>(Arrays.asList(
-			new Kunden("Fredi", "Hard"),
-			new Kunden("Milla", "Moos")
+	private List<Kunde> kunden = new ArrayList<Kunde>(Arrays.asList(
+			new Kunde("Fredi", "Hard"),
+			new Kunde("Milla", "Moos")
 		));
 	
-	public List<Kunden> getKunde(){
+	public List<Kunde> getKunde(){
 		return kunden;
 	}
 	
-	public void setKunden(List<Kunden> kunden){
+	public void setKunden(List<Kunde> kunden){
 		this.kunden = kunden;
 	}
 	

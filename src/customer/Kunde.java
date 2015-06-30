@@ -1,11 +1,11 @@
 package customer;
 
 
-public class Kunden {
+public class Kunde {
 	private String firstName;
 	private String lastName;
 
-	public Kunden(String firstName, String lastName){
+	public Kunde(String firstName, String lastName){
 		this.firstName = firstName;
 		this.lastName = lastName;
 	}
