@@ -1,1 +1,7 @@
-@CHARSET "ISO-8859-1";
+#table {
+	background-color: red;
+}
+
+html {
+	background-color: lightgray;	
+}
