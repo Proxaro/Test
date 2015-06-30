@@ -15,8 +15,7 @@ import java.util.List;
 @ManagedBean
 @SessionScoped
 public class Customer {
-	private String name;
-	private String surname;
+
 	
 	private List<Address> addresses = new ArrayList<Address>(Arrays.asList(
 			new Address(8052, "Zürich", "Federnstrasse"),
@@ -27,20 +26,24 @@ public class Customer {
 		return addresses;
 	}
 	
+	
 	public void setAddresses(List<Address> addresses){
 		this.addresses = addresses;
 	}
 	
-	public String getName(){
-		return name;
+	
+	private List<Kunden> kunden = new ArrayList<Kunden>(Arrays.asList(
+			new Kunden("Fredi", "Hard"),
+			new Kunden("Milla", "Moos")
+		));
+	
+	public List<Kunden> getKunde(){
+		return kunden;
 	}
-	public void setName(String name){
-		this.name = name;
+	
+	public void setKunden(List<Kunden> kunden){
+		this.kunden = kunden;
 	}
-	public String getSurname(){
-		return surname;
-	}
-	public void setZipCode(String surname){
-		this.surname = surname;
-	}
+	
+
 }
