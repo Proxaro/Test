@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>Test</description>
+        <device_type>browser</device_type>
+        <hint>Test</hint>
+        <name/>
+        <order/>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-05 18:54:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ee34de4c973571102717b027f053afa2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SN Test</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SN Test" source="x_784355_sn_test">0af3964c977171102717b027f053afde</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN Test">0af3964c977171102717b027f053afde</sys_scope>
+        <sys_update_name>sys_app_application_ee34de4c973571102717b027f053afa2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-05 18:54:01</sys_updated_on>
+        <title>SN Test</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>
